@@ -1,5 +1,14 @@
 # Báo cáo Giải pháp Datathon - Đội NEU-Solution
+# DISCLAIMER
 
+Báo cáo phân tích và mô hình dự báo của đội **NEU-Solution** được xây dựng dựa trên tập dữ liệu do Ban tổ chức cung cấp trong khuôn khổ cuộc thi **Datathon 2026**. Để đảm bảo tính khách quan cho kết quả phân tích, chúng tôi xin lưu ý các điểm sau:
+
+*   **Bản chất dữ liệu:** Do đặc thù của quá trình giả lập dữ liệu (*Synthetic Data*), một số chỉ số kinh doanh thực tế như giá cả (`price`), tỷ lệ thoát (`bounce_rate`), nguồn lưu lượng (`traffic_source`),... và các hành vi khách hàng có thể tồn tại những sai lệch nhất định hoặc không hoàn toàn sát với thực tế thị trường[cite: 1].
+*   **Phạm vi phân tích:** Do sự thiếu tương đồng của các biến số này so với logic vận hành thực tế, đội quyết định tập trung tối đa vào việc xây dựng phương pháp luận, tối ưu hóa quy trình xử lý dữ liệu và kiểm chứng tư duy mô hình hóa thay vì đi sâu vào phân tích ý nghĩa tuyệt đối của các con số kể trên.
+
+Chúng tôi tin rằng việc tập trung vào `methodology` sẽ mang lại giá trị phân tích bền vững và phản ánh đúng năng lực xử lý dữ liệu của nhóm trong dự án này
+
+# Báo cáo Giải pháp Datathon - Đội NEU-Solution
 Repository này lưu trữ toàn bộ mã nguồn, quy trình phân tích dữ liệu (EDA) và mô hình dự báo chuỗi thời gian (Time-series Forecasting) của đội NEU-Solution dành cho bài toán quản trị và dự báo doanh thu của một doanh nghiệp thời trang thương mại điện tử.
 
 ## 1. Kiến trúc Dữ liệu
